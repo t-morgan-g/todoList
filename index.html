@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <title>Practical Todos</title>
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <h1>todos</h1>
+
+     <!-- <div>
+       <button id="toggleAll" onclick="handlers.toggleAll()"><i class="fa fa-chevron-down" aria-hidden="true"></i></button> 
+    </div>  -->
+
+    <div id="todo">
+      <button id="toggleAll" onclick="handlers.toggleAll()"><i class="fa fa-chevron-down" aria-hidden="true"></i></button> 
+      <div id="addTodo">
+        <!-- <button id="addTodoBtn" onclick="handlers.addTodo()">Add</button> -->
+        <input id="addTodoTextInput" type="text" placeholder="What needs to be done?">
+      </div>
+
+      <ul>
+      </ul>
+    </div>
+    <!-- <div>
+      <button onclick="handlers.changeTodo()">Change Todo</button>
+      <input id="changeTodoPositionInput" type="number" placeholder="Position">
+      <input id="changeTodoTextInput" type="text" placeholder="Enter new text.">
+    </div> -->
+    
+    <!-- <div>
+      <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+      <input id="toggleCompletedPositionInput" type="number" placeholder="Position">
+    </div> -->
+
+    <script src="js/client.js"></script>
+    <script src="https://use.fontawesome.com/108edbc32a.js"></script>
+  </body>
+</html>

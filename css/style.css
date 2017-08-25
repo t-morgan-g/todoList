@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: 15px;
+    color: paleturquoise;
+    font-weight: normal;
+}
+
+#todo {
+    width: 480px;
+    border: 1px solid lightgray;
+    margin: auto;
+}
+
+#toggleAll {
+    float: left;
+    width: 40px;
+    height: 80px;
+    font-size: 24px; 
+    background-color: white;
+    color: darkturquoise;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 5px;;
+    position: absolute;
+}
+
+input#addTodoTextInput:focus {
+    outline: none;
+}
+
+#addTodoTextInput {
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 15px 15px 60px;
+    border: none;
+}
+
+#addTodo {
+    margin: auto;
+    text-align: center;
+    /* padding: 15px; */
+    width: 479px;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+}
+
+ul {
+    padding-left: 0; 
+    width: 479px;
+    margin: auto;
+}
+
+li {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    list-style: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.label {
+    vertical-align: middle;
+    line-height: 1.2;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    width: 364px;
+}
+
+.deleteButton {
+    float: right;
+    width: 32px;
+    font-size: 24px; 
+    background-color: white;
+    color: lightcoral;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 9.5px 20px 9.5px 0;
+}
+
+.deleteButton:hover {
+    color: crimson;
+}
+ 
+.toggle {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+} 
+
+
